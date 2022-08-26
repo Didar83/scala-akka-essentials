@@ -25,7 +25,6 @@ object MultiThreadingRecap extends App{
     def safeWithdraw(money: Int) = this.synchronized {
       this.amount -= money
     }
-
   }
 
   /*
